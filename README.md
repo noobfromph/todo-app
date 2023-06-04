@@ -28,6 +28,9 @@ This will execute the test suite using the Mocha test framework.
 
 ## Development
 ### `.env`
+
+Update the `.env` file with the following configurations:
+
 ```bash
 DATABASE_URL=<your db connection>
 JWT_KEY=<your jwt key>
@@ -38,7 +41,6 @@ ALLOWED_ORIGINS=<allowed origins separated by comma>
 
 For running tests, update the `.env.test` file with the following configurations:
 
-Update the `.env` file with the following configurations:
 ```bash
 NODE_ENV=test
 TEST_USERNAME=<test username>
