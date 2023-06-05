@@ -70,7 +70,8 @@ npx sequelize-cli
 ```
 
 ### Folder Structuring
-Below is the suggested folder structure for an organized development:
+Below is the suggested folder structure for an organized development: 
+```bash
 .
 ├── apps                    		# Modular configuration
 │   ├── auth                		# Module
@@ -89,6 +90,7 @@ Below is the suggested folder structure for an organized development:
 ├── test                    # Test directory
 ├── utils
 └── index.js                # Main entry
+```
 
 This folder structure follows a modular approach where each module (e.g., "auth") has its own versioned API endpoints, controllers, routes, and services. It also includes directories for configuration (config), database migrations (migrations), Sequelize models (models), seeders for database seeding (seeders), and utility scripts (utils). The constants, middlewares, and routes directories provide a centralized location for storing respective files, and the test directory is dedicated to unit tests. Finally, the index.js file serves as the main entry point for the application.
 
