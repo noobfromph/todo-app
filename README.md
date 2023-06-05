@@ -49,6 +49,26 @@ TEST_URL=<api base url>
 DATABASE_TEST_URL=<test db connection>
 ```
 
+### Creating new model
+
+To generate new model:
+```bash
+npx sequelize-cli models:generate --name <name> --attributes <list of attributes>
+```
+
+### Creating migrations
+
+To generate new migration:
+```bash
+npx sequelize-cli migration:generate --name <name>
+npx sequelize-cli db:migrate # to run migration
+```
+
+To view all Sequelize commands, run:
+```bash
+npx sequelize-cli
+```
+
 ## Technologies Used
 
 The Todo-App utilizes the following technologies:
